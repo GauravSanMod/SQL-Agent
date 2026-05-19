@@ -1,0 +1,25 @@
+# Text-to-SQL Multi-Agent Pipeline Dependencies
+# Core
+pyyaml>=6.0.1
+pydantic>=2.5.0
+
+# Vector Store & Embeddings
+chromadb>=0.4.22
+sentence-transformers>=2.2.2
+
+# Graph
+networkx>=3.2
+
+# SQL Parsing & Validation
+sqlglot>=20.0.0
+
+# SLM Integration (Ollama / OpenAI-compatible)
+openai>=1.12.0
+httpx>=0.26.0
+
+# Database (dummy / dry-run)
+# sqlite3 is built-in
+
+# Utilities
+rich>=13.7.0
+python-dotenv>=1.0.0
